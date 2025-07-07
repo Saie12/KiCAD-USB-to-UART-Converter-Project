@@ -3905,7 +3905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 158.75 40.386 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1K"
 			(at 68.58 87.63 90)
 			(effects
 				(font
@@ -4529,10 +4529,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b7d33ac-353b-4f92-9fa3-e100db44f36a")
 		(property "Reference" "C2"
-			(at 190.5 71.1199 0)
+			(at 187.198 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,8 +4539,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 190.5 73.6599 0)
+		(property "Value" "100nF"
+			(at 187.452 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 185.42 45.212 90)
 			(effects
 				(font
@@ -4744,7 +4743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 220.98 43.942 90)
 			(effects
 				(font
@@ -4813,7 +4812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 179.07 45.212 90)
 			(effects
 				(font
@@ -4881,7 +4880,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 129.286 53.34 90)
 			(effects
 				(font
@@ -5357,7 +5356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 227.33 43.942 90)
 			(effects
 				(font
@@ -5491,7 +5490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 124.206 112.522 0)
 			(effects
 				(font
@@ -5813,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "5.1K"
 			(at 68.58 85.09 90)
 			(effects
 				(font
