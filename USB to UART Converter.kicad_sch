@@ -2518,6 +2518,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 237.49 19.05)
+		(end 280.035 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1680993b-5e57-4ce0-8845-9716d0e46263)
+	)
+	(rectangle
+		(start 114.935 19.05)
+		(end 233.68 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 688f1a32-48f8-4f86-a0c2-1b9c147f9593)
+	)
+	(rectangle
+		(start 20.32 19.05)
+		(end 109.22 146.685)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d948ab27-e402-41f1-b7bf-302cd87d18ee)
+	)
+	(text "CP2102"
+		(exclude_from_sim no)
+		(at 130.556 24.638 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "1bbbed50-5464-4c2d-81a6-13fc9335bd57")
+	)
+	(text "USB Type-C"
+		(exclude_from_sim no)
+		(at 45.466 26.67 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "91900b33-54ea-4b7f-bb5d-fee35edc3d86")
+	)
+	(text "External Pins"
+		(exclude_from_sim no)
+		(at 258.826 23.622 0)
+		(effects
+			(font
+				(size 4.064 4.064)
+			)
+		)
+		(uuid "973494e9-540b-435c-9814-e29f7489efb7")
+	)
 	(junction
 		(at 77.47 80.01)
 		(diameter 0)
@@ -2738,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 91.44) (xy 247.65 91.44)
+			(xy 248.92 90.17) (xy 255.27 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 93.98) (xy 247.65 93.98)
+			(xy 248.92 92.71) (xy 255.27 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3158,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 88.9) (xy 247.65 88.9)
+			(xy 248.92 87.63) (xy 255.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3268,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 96.52) (xy 247.65 96.52)
+			(xy 248.92 95.25) (xy 255.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3424,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 96.52) (xy 241.3 99.06)
+			(xy 248.92 95.25) (xy 248.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3408,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 86.36) (xy 247.65 86.36)
+			(xy 248.92 85.09) (xy 255.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3693,7 @@
 		(uuid "62425066-5361-41d8-8c62-7db66d81b2c8")
 	)
 	(label "VBUS"
-		(at 241.3 93.98 0)
+		(at 248.92 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3657,7 +3723,7 @@
 		(uuid "78251bb3-3b6d-449d-88f2-a341a4540452")
 	)
 	(label "TX"
-		(at 241.3 88.9 0)
+		(at 248.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3687,7 +3753,7 @@
 		(uuid "a3ace5ce-28c4-407b-b61e-28aa8cdca50d")
 	)
 	(label "RX"
-		(at 241.3 91.44 0)
+		(at 248.92 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3697,7 +3763,7 @@
 		(uuid "b9e1f060-deaf-4292-b2fb-4ae58a86e581")
 	)
 	(label "RST"
-		(at 241.3 86.36 0)
+		(at 248.92 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5409,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 99.06 0)
+		(at 248.92 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5417,7 +5483,7 @@
 		(dnp no)
 		(uuid "da9fb5d4-a919-44f1-9ad0-af5964b488b4")
 		(property "Reference" "#PWR05"
-			(at 241.3 105.41 0)
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 102.616 0)
+			(at 248.92 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 99.06 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5443,7 +5509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 99.06 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 99.06 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5996,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 252.73 91.44 180)
+		(at 260.35 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5939,7 +6005,7 @@
 		(fields_autoplaced yes)
 		(uuid "efba09ea-68a9-4347-ab54-7719522ec47e")
 		(property "Reference" "J2"
-			(at 254 90.1699 0)
+			(at 261.62 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +6014,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 254 92.7099 0)
+			(at 261.62 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 91.44 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 91.44 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +6041,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 252.73 91.44 0)
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
